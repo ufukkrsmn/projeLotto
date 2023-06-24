@@ -1,0 +1,22 @@
+/*
+UFUK
+KIRISMAN
+BILGISAYAR MUHENDISLIGI IKINCI OGRETIM PROGRAMI
+NESNEYE YONELIK PROGRAMLAMA BM104
+BAHAR DONEMI
+PROJE 1
+DENIZ DAL
+*/
+
+#include "BM104_210757093_Proje1.h"
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	BM104_210757093_Proje1 nsn;
+
+	nsn.OyunOyna(); 
+	return 0;
+}
