@@ -1,18 +1,17 @@
 /*
 UFUK
 KIRISMAN
-BILGISAYAR MUHENDISLIGI IKINCI OGRETIM PROGRAMI
-NESNEYE YONELIK PROGRAMLAMA BM104
-BAHAR DONEMI
+BILGISAYAR MUHENDISLIGI
+
 PROJE 1
-DENIZ DAL
+
 */
 
 #include "BM104_210757093_Proje1.h"//header dosyadaki degiskenlere ulasmak icin
 #include <iostream>//cout ve cin icin
 #include <cstdlib>//srand ve rand fonksiyonlari icin
 #include <ctime>//time(0) fonksiyonu icin
-#include <iomanip>//setfill ve setw için
+#include <iomanip>//setfill ve setw iï¿½in
 using namespace std;
 
 void BM104_210757093_Proje1::OyunOyna()
@@ -32,7 +31,7 @@ void BM104_210757093_Proje1::DiziEleman(int kacEleman,int altLimit,int ustLimit)
 	srand(time(0));//uygulamayi her calistirdigimizda farkli random sayilar uretmemizi saglar
 	for (int i = 0; i < kacEleman; i++)
 	{
-		dizi[i] = rand() % (ustLimit - altLimit) + altLimit;//alt ve ust limite gore random sayilar ureterek dizinin içine yazar
+		dizi[i] = rand() % (ustLimit - altLimit) + altLimit;//alt ve ust limite gore random sayilar ureterek dizinin iï¿½ine yazar
 	}
 }
 
